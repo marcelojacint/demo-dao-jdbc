@@ -44,5 +44,9 @@ public class Program {
 		seller.setName("taise");
 		sellerDao.update(seller);
 		
+		System.out.println("\n==== test 6, seller delete ====");
+		sellerDao.deleteById(9);
+		
+		
 	}
 }
